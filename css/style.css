@@ -1,0 +1,105 @@
+#head{
+    color:#fff;
+    text-align: center;
+}
+.head{
+    background-color: #252e3f;
+    text-align: center;
+}
+.job {
+    color:#a78a62;
+}
+.head i{
+    color:#a78a62;    
+}
+.info{
+    color:#aaaeb9;
+    border-right: #fff solid 1px;
+    padding: 10px;
+}
+
+
+#sidebar{
+    background-color:#e6e6e6;   
+    /* height: 1; */
+    /* position: fixed;  */
+}
+.languages{
+    text-align: center;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+
+}
+ul li{
+    margin: 3px;
+}
+.personal li{
+    font-size: 90%;
+}
+.education{
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+
+}
+.Project{
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    text-align: center;
+    color:#fff;
+    background: #112d61;
+
+}
+i{
+    font-size:175%;
+}
+footer{
+    background: #112d61;
+    color: #fff;
+    text-align: center;
+}
+footer a{
+    color:#fff;
+
+}
+
+
+#social ul{
+    display:inline-flex;
+    list-style-type:none;
+    text-align:center;
+    color:#fff
+    }
+#social ul li a .yt{
+background-color:#f00;
+color:#fff;
+}
+#social ul li a .insta{
+background-image:url('../img/insta.jpg');
+background-size: cover;
+color:#fff;
+}
+#social ul li a .fb{
+background-color:#3b5998;
+margin:0.2vw
+}
+#social ul li a .twitter{
+background-color:#00acee
+}
+#social ul li a .yt:hover{
+color:#f00;
+background-color:#fff
+}
+#social ul li a .insta:hover{
+background-image:none;
+background: -webkit-linear-gradient(45deg,#405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+#social ul li a .fb:hover{
+color:#3b5998;
+background-color:#fff
+}
+#social ul li a .twitter:hover{
+color:#00acee;
+background-color:#fff
+}
